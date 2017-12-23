@@ -798,7 +798,7 @@ p.post-nav-next { background-image: url(../images/icons/1x/next-g.png); }
 
 .post-content {
     font-family: 'Crimson Text', 'Times New Roman', Times, serif;
-    font-size: 1.25em;
+    font-size: 1.75rem;
 }
 
 .post-content a:hover { text-decoration: underline; }
