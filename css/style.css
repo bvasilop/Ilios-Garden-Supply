@@ -308,6 +308,14 @@ body a,
 
 .nav-toggle { display: none; }
 
+.phone-header {
+
+    font-size: 1.6em;
+    font-weight: 300;
+    color: #e1a933;
+
+}
+
 
 /* header search block */
 
@@ -377,7 +385,7 @@ body a,
 
 .main-menu > li:hover > a {
     color: #FFF;
-    background: #CA2017;
+    background: rgb(12, 0, 80);
 }
 
 .main-menu > .has-children:hover > a::after,
@@ -827,7 +835,8 @@ p.post-nav-next { background-image: url(../images/icons/1x/next-g.png); }
 
 .post-content h1 {
     font-size: 1.6em;
-    font-weight: 700;
+    font-weight: 300;
+    color: #e1a933;
 }
 
 .post-content h2 {
@@ -1176,9 +1185,9 @@ abbr, acronym { cursor: help; }
 .post-content button {
     padding: 12px 16px;
     margin: 0;
-    border: none;
-    background: #222;
-    color: #fff;
+    background-color: #96588a;
+    border-color: #96588a;
+    color: #ffffff
     font-size: 0.9rem;
     line-height: 1;
     -webkit-appearance: none;
@@ -1985,7 +1994,8 @@ li.comment {
 
     /* header */
 
-    .header { padding: 30px 0; }
+    .header {
+        padding: 30px 0; }
 
     .blog-title {
         font-size: 32px;
@@ -2161,6 +2171,9 @@ li.comment {
 
 
 @media (max-width: 900px) {
+    /* header */
+
+    .blog-logo img { height: 90px; }
 
     /* main content */
 
@@ -2210,7 +2223,7 @@ li.comment {
 
     .blog-title { font-size: 24px; letter-spacing: 0; }
 
-    .blog-logo img { height: 40px; }
+    .blog-logo img { height: 90px; }
 
     /* navigation */
 
@@ -2531,175 +2544,175 @@ li.comment {
 }
 
 body a {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 body a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .blog-title a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .main-menu > li:hover > a {
-    background: #c0af00;
+    background: #e1a933;
 }
 
 .main-menu ul a:hover {
-    background: #c0af00;
+    background: #e1a933;
 }
 
 a.post-header:hover .post-title {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .single .post-meta-top a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .post-content a {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .post-content a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .post-content fieldset legend {
-    background-color: #c0af00;
+    background-color: #e1a933;
 }
 
 .post-content input[type="submit"]:hover {
-    background-color: #c0af00;
+    background-color: #e1a933;
 }
 
 .post-content input[type="reset"]:hover {
-    background-color: #c0af00;
+    background-color: #e1a933;
 }
 
 .post-content input[type="button"]:hover {
-    background-color: #c0af00;
+    background-color: #e1a933;
 }
 
 .post-content button:hover {
-    background-color: #c0af00;
+    background-color: #e1a933;
 }
 
 .post-meta a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .post-author-inner h3 a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .author-links a:hover {
-    background-color: #c0af00;
+    background-color: #e1a933;
 }
 
 .add-comment-title a {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .add-comment-title a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .by-post-author {
-    background-color: #c0af00;
+    background-color: #e1a933;
 }
 
 .comment-actions a {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .comment-actions a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .comment-header cite a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .comment-header span a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .comment-content a {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .comment-content a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .comment-actions a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 #cancel-comment-reply-link {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 #cancel-comment-reply-link:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .comment-nav-below a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .logged-in-as a {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .logged-in-as a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .content #respond input[type="submit"]:hover {
-    background-color: #c0af00;
+    background-color: #e1a933;
 }
 
 .archive-container a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .archive-nav a:hover {
-    background: #c0af00;
+    background: #e1a933;
 }
 
 #wp-calendar tfoot a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .tagcloud a:hover {
-    background: #c0af00;
+    background: #e1a933;
 }
 
 .tagcloud a:hover:before {
-    border-right-color: #c0af00;
+    border-right-color: #e1a933;
 }
 
 .credits a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 .nav-toggle.active {
-    background: #c0af00;
+    background: #e1a933;
 }
 
 .mobile-menu a:hover {
-    background: #c0af00;
+    background: #e1a933;
 }
 
 body#tinymce.wp-editor a {
-    color: #c0af00;
+    color: #e1a933;
 }
 
 body#tinymce.wp-editor a:hover {
-    color: #c0af00;
+    color: #e1a933;
 }
 a {
     cursor: pointer;
