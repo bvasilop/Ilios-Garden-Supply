@@ -1241,9 +1241,9 @@ abbr, acronym { cursor: help; }
 }
 
 .phone-number {
-    font-size: 1.6em;
-    font-weight: 300;
-    color: #e1a933;
+    font-size: 2.4em;
+    font-weight: bolder;
+    color: #4d2365;
     text-align: center;
 
 }
@@ -1763,7 +1763,10 @@ li.comment {
 .search-no-results .footer,
 .error404 .footer { border-top: 1px solid #ddd; }
 
-.widget { margin-top: 60px; }
+.widget {
+    margin-top: 60px;
+    background: #e4e1d5;
+}
 .widget:first-child { margin-top: 0; }
 
 .widget-content {
@@ -1824,7 +1827,18 @@ li.comment {
 .social-media-button-container {
     background: #e4e1d5;
     zoom: 1;
-    text-align: left;
+
+
+
+    text-align: center;
+}
+.sow-social-media-button{
+
+
+}
+.so-widget-sow-social-media-buttons {
+    zoom: 1;
+    text-align: center;
 }
 
 
@@ -1837,10 +1851,13 @@ li.comment {
 }
 
 a.email{
+
+
     color: #407cff;
     text-align: center;
     text-transform: uppercase;
     font-size: 1.75rem;
+    font-weight: bolder;
 
 }
 a.email:hover{
