@@ -2195,7 +2195,7 @@ li.comment {
 
     .footer .column-3 { display: none; }
 
-    .footer .one-third { width: 67.5%; margin-left: 5%; }
+    .footer .one-third { width: 57.5%; margin-left: 5%; }
 
     .footer .full-width {width: 100%; margin-left 50%;}
 
@@ -2484,7 +2484,12 @@ li.comment {
 
 @media (max-width: 500px) {
 
-    body { font-size: 15px; }
+    body {
+        font-size: 15px;
+
+
+    }
+
 
     /* main content */
 
