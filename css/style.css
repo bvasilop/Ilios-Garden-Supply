@@ -1,7 +1,6 @@
 @charset "UTF-8";
 
 /*---------------------------------------------------------------------------------
-
 	Theme Name: Radcliffe
     Text Domain: radcliffe
 	Version: 1.17
@@ -12,12 +11,9 @@
 	Theme URI: http://www.andersnoren.se/teman/radcliffe-wordpress-theme/
 	License: GNU General Public License version 2.0
 	License URI: http://www.gnu.org/licenses/gpl-2.0.html
-
 	All files, unless otherwise stated, are released under the GNU General Public License
 	version 2.0 (http://www.gnu.org/licenses/gpl-2.0.html)
-
 -----------------------------------------------------------------------------------
-
 	0.	CSS Reset
 	1.	Document Setup
 	2.  Structure
@@ -32,7 +28,6 @@
 	11.	Footer
 	12.	Credits
 	13. Media Queries
-
 ----------------------------------------------------------------------------------- */
 
 
@@ -1241,9 +1236,9 @@ abbr, acronym { cursor: help; }
 }
 
 .phone-number {
-    font-size: 2.4em;
-    font-weight: bolder;
-    color: #4d2365;
+    font-size: 1.6em;
+    font-weight: 300;
+    color: #e1a933;
     text-align: center;
 
 }
@@ -1763,10 +1758,7 @@ li.comment {
 .search-no-results .footer,
 .error404 .footer { border-top: 1px solid #ddd; }
 
-.widget {
-    margin-top: 60px;
-    background: #e4e1d5;
-}
+.widget { margin-top: 60px; }
 .widget:first-child { margin-top: 0; }
 
 .widget-content {
@@ -1827,41 +1819,24 @@ li.comment {
 .social-media-button-container {
     background: #e4e1d5;
     zoom: 1;
-
-
-
-    text-align: center;
-}
-.sow-social-media-button{
-
-
-}
-.so-widget-sow-social-media-buttons {
-    zoom: 1;
-    text-align: center;
+    text-align: left;
 }
 
+a.email{
+        color: #407cff;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.75rem;
 
-
+    }
+    a.email:hover{
+        color: orangered;
+    }
 
 .contact a{
     margin: 0 auto;
 
     text-align: center;
-}
-
-a.email{
-
-
-    color: #407cff;
-    text-align: center;
-    text-transform: uppercase;
-    font-size: 1.75rem;
-    font-weight: bolder;
-
-}
-a.email:hover{
-    color: orangered;
 }
 
 /* Widget tag cloud --------------------------------------- */
@@ -1977,18 +1952,9 @@ a.email:hover{
 
 
 @media (min-height: 1100px) {
-    .post-content p {
-        padding: 5px 10px 5px 10px;
-        font-size: 1.3rem;
-        line-height: 115%;
 
     .featured-media { max-height: none; }
 
-}
-.blog-logo img {
-    padding: 0;
-    height: 100px;
-    width: auto;
 }
 
 
@@ -2000,12 +1966,6 @@ a.email:hover{
 
 
 @media (max-width: 1020px) {
-
-    .blog-logo img {
-        padding: 0;
-        height: 100px;
-        width: auto;
-    }
 
 
     .post-content .alignnone {
@@ -2032,7 +1992,7 @@ a.email:hover{
     /* header */
 
     .header {
-        padding: 10px 0; }
+        padding: 30px 0; }
 
     .blog-title {
         font-size: 32px;
@@ -2050,8 +2010,7 @@ a.email:hover{
     }
 
     .blog-logo img {
-        padding: 0;
-        height: 90px;
+        height: 60px;
         width: auto;
     }
 
@@ -2214,15 +2173,17 @@ a.email:hover{
     .blog-logo img { height: 90px; }
 
     /* main content */
-    .section-inner {
-        max-width: 100%;
 
+    .section-inner {
+        width: 1300px;
+        max-width: 100%;
+        margin: 0 auto;
     }
+
     .post-content p {
         padding: 5px 10px 5px 10px;
-        font-size: 1.25rem;
+        font-size: 1.35rem;
         line-height: 122%;
-
     }
 
     .post-header { padding: 75px 0; }
@@ -2255,9 +2216,6 @@ a.email:hover{
 
 
 @media (max-width: 600px) {
-    .section-inner {
-        max-width: 100%;
-    }
 
     body { font-size: 16px; }
 
@@ -2268,7 +2226,7 @@ a.email:hover{
     .light-padding { padding: 25px 0; }
     .small-padding { padding: 20px 0; }
 
-    .section-inner { max-width: 88%; }
+    .section-inner { max-width: 100%; }
 
     /* header */
 
@@ -2530,18 +2488,23 @@ a.email:hover{
     .blog-logo img {
         height: 72px;
     }
+    a.email {
+        color: #407cff;
+        text-align: center;
+        text-transform: uppercase;
+        font-size: 1.34rem;
+    }
+    a.email:hover{
+        color: orangered;
+    }
 
 }
 
 
 @media (max-width: 500px) {
 
-    .section-inner {
-        max-width: 100%;
-    }
-
     body {
-        font-size: 11px;
+        font-size: 15px;
 
 
     }
@@ -2582,7 +2545,6 @@ a.email:hover{
 @media (max-width: 350px) {
 
     /* header */
-    .section-inner.medium { width: auto; }
 
     .blog-logo img {
         height: 40px;
@@ -2798,4 +2760,3 @@ a {
 button {
     margin-top: 10px !important;
 }
-
