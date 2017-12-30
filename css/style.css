@@ -264,7 +264,7 @@ body a,
 
 
 .header {
-    padding: 40px 0;
+    padding: 18px 0 36px 0px;
     border-top: 4px solid #222;
     background: #f3efe1;
 }
@@ -280,6 +280,7 @@ body a,
 }
 
 .header-phone{
+    padding: .35rem 0 .35rem;
     color: #767671;
     position: relative;
     top: 4rem;
@@ -522,7 +523,7 @@ body a,
     position: relative;
 }
 .post-content p{
-    padding: 0 75px 50px 75px;
+    padding: 40px 40px 40px 69px;
 }
 
 .posts .post.has-featured-image { min-height: 266px; }
@@ -2175,6 +2176,15 @@ li.comment {
 @media (max-width: 900px) {
     /* header */
 
+    .header-phone p{
+
+        font-style: bold;
+        font-size: 1.15em;
+        position: relative;
+        top: 1.5rem;
+        right: 14.5rem;
+    }
+
     .blog-logo img { height: 90px; }
 
     /* main content */
@@ -2216,13 +2226,7 @@ li.comment {
 
     .footer .one-third:first-child { margin-left: 0; }
 
-    .header-phone p{
-        font-style: bold;
-        font-size: 1.15em;
-        position: relative;
-        top: 1.5rem;
-        right: 14.5rem;
-    }
+
 
 
 
@@ -2245,7 +2249,7 @@ li.comment {
 
     /* header */
 
-    .header { padding: 25px 0; }
+    .header {  padding: 0px 0 20px 0px; }
 
     .blog-title { font-size: 24px; letter-spacing: 0; }
 
@@ -2573,7 +2577,7 @@ li.comment {
     font-style: bold;
     font-size: 1.15em;
     position: relative;
-    top: 0.5rem;
+    top: -0.1rem;
     right: 12.4rem;
 }
 
