@@ -279,6 +279,13 @@ body a,
 
 }
 
+.header-phone{
+    color: #767671;
+    position: relative;
+    top: 4rem;
+    left: 4.1rem;
+}
+
 .blog-title {
     float: left;
     font-family: 'Abril Fatface', serif;
@@ -1196,7 +1203,7 @@ abbr, acronym { cursor: help; }
     margin: 0;
     background-color: #96588a;
     border-color: #96588a;
-    color: #ffffff
+    color: #ffffff;
     font-size: 0.9rem;
     line-height: 1;
     -webkit-appearance: none;
@@ -1236,9 +1243,10 @@ abbr, acronym { cursor: help; }
 }
 
 .phone-number {
-    font-size: 1.6em;
-    font-weight: 300;
-    color: #f53e43;
+    padding-bottom: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #480002;
     text-align: center;
 
 }
@@ -1822,16 +1830,21 @@ li.comment {
     text-align: left;
 }
 
-a.email{
-        color: #407cff;
+.email {
+        padding: 0.5rem 0rem 0.5rem 0rem;
+
         text-align: center;
         text-transform: uppercase;
         font-size: 1.75rem;
+}
+.email a{
+    color: #407cff;
 
-    }
-    a.email:hover{
+}
+
+    .email a:hover{
         color: orangered;
-    }
+}
 
 .contact a{
     margin: 0 auto;
@@ -1937,14 +1950,7 @@ a.email{
 }
 
 
-.email-link {
-    font-size: 1.7em;
-    font-weight: bold;
-    margin: 0 auto;
-    text-align: center;
 
-
-}
 
 /* -------------------------------------------------------------------------------- */
 /*	13. Media Queries
@@ -1985,7 +1991,6 @@ a.email{
 
 
 }
-
 
 @media (max-width: 1000px) {
 
@@ -2207,12 +2212,22 @@ a.email{
 
     .footer .one-third { width: 57.5%; margin-left: 5%; }
 
-    .footer .full-width {width: 100%; margin-left 50%;}
+    .footer .full-width {width: 100%; margin-left: 50%;}
 
     .footer .one-third:first-child { margin-left: 0; }
 
+    .header-phone p{
+        font-style: bold;
+        font-size: 1.15em;
+        position: relative;
+        top: 1.5rem;
+        right: 14.5rem;
+    }
+
+
 
 }
+
 
 
 @media (max-width: 600px) {
@@ -2312,7 +2327,7 @@ a.email{
         font-size: 1.45rem;
         line-height: 115%;
 
-
+    }
 
     .post-content li { margin-bottom: 0.5em; }
 
@@ -2478,11 +2493,12 @@ a.email{
 
     .widget-content li { padding-left: 18px; }
 
-    a.email {
-        color: #407cff;
+    .email  {
+        padding: 0;
         text-align: center;
         text-transform: lowercase;
         font-size: 1.75rem;
+
     }
 
     /* credits */
@@ -2494,13 +2510,13 @@ a.email{
     .blog-logo img {
         height: 72px;
     }
-    a.email {
-        color: #407cff;
+    .email  {
+        padding: 0;
         text-align: center;
-        /*text-transform: uppercase;*/
+
         font-size: 1.75rem;
     }
-    a.email:hover{
+    .email a:hover{
         color: orangered;
     }
 
@@ -2545,15 +2561,24 @@ a.email{
 
     .archive-nav a { padding: 25px 0; }
 
-}
-a.email {
+
+.email a {
     padding: 1.5rem;
     color: #407cff;
     text-align: center;
     text-transform: lowercase;
     font-size: 1.55rem;
 }
+.header-phone p{
+    font-style: bold;
+    font-size: 1.15em;
+    position: relative;
+    top: 0.5rem;
+    right: 12.4rem;
+}
 
+
+}
 
 @media (max-width: 350px) {
 
@@ -2569,7 +2594,8 @@ a.email {
     .post-author .avatar { max-width: 60px; }
     .post-author-inner { margin-left: 80px; }
 
-    a.email {
+    .email  {
+
         color: #407cff;
         text-align: center;
         /*text-transform: uppercase;*/
