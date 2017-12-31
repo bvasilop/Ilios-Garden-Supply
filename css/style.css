@@ -95,7 +95,7 @@ body {
     margin: 0;
     padding: 0;
     border: none;
-    background: #e4e1d5;
+    background: #c7c7c7;
     color: #222;
     font-family: 'Open Sans', sans-serif;
     font-size: 18px;
@@ -264,9 +264,9 @@ body a,
 
 
 .header {
-    padding: 18px 0 36px 0px;
+    padding: 18px 0 60px 0px;
     border-top: 4px solid #222;
-    background: #f3efe1;
+    background: #fdfdfd;
 }
 
 .single.no-featured-image .header,
@@ -283,8 +283,17 @@ body a,
     padding: .35rem 0 .35rem;
     color: #767671;
     position: relative;
-    top: 4rem;
-    left: 4.1rem;
+    top: 5rem;
+    left: -7.5rem;
+}
+.header-email {
+    padding: .35rem 0 .35rem;
+    position: relative;
+    top: 4.4rem;
+    left: -0.1rem;
+}
+.header-email a{
+    color: #407bff;
 }
 
 .blog-title {
@@ -523,7 +532,8 @@ body a,
     position: relative;
 }
 .post-content p{
-
+    background: #fdfdfd;
+    margin-bottom: 0;
     padding: 5px 40px 5px 69px;
 }
 .post-content p:first-child:first-letter {
@@ -826,7 +836,7 @@ p.post-nav-next { background-image: url(../images/icons/1x/next-g.png); }
 .post-content {
     font-family: 'Crimson Text', 'Times New Roman', Times, serif;
     font-size: 1.5rem;
-    background: #fffdf5;
+    background: #fdfdfd;
 }
 
 .post-content a:hover { text-decoration: underline; }
@@ -955,10 +965,10 @@ abbr, acronym { cursor: help; }
 
 .post-content hr {
     display: block;
-    width: 100px;
-    height: 2px;
-    background: #ddd;
-    margin: 40px auto;
+    width: 900px;
+    height: 1px;
+    background: #c7c7c7;
+    margin: 0px auto;
     border: none;
 }
 
@@ -1211,8 +1221,8 @@ abbr, acronym { cursor: help; }
 .post-content button {
     padding: 12px 16px;
     margin: 0;
-    background-color: #96588a;
-    border-color: #96588a;
+    background-color: #727272;
+    border-color: #407bff;
     color: #ffffff;
     font-size: 0.9rem;
     line-height: 1;
@@ -1835,7 +1845,7 @@ li.comment {
 .widget-content *:last-child { margin-bottom: 0; }
 
 .social-media-button-container {
-    background: #e4e1d5;
+    background: #c7c7c7;
     zoom: 1;
     text-align: left;
 }
@@ -2336,9 +2346,10 @@ li.comment {
 
 
     .post-content p {
-        padding: 20px 20px 20px 32px;
+        padding: 10px 20px 10px 32px;
         font-size: 1.45rem;
         line-height: 115%;
+        margin-bottom: 0;
 
     }
 
