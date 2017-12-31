@@ -2554,9 +2554,18 @@ li.comment {
 
 
     }
+    .header{
+        padding: 0px 0 36px 0;
+    }
 
 
     /* main content */
+
+    .post-content h1 {
+        font-size: 1.85rem;
+        position: relative;
+        left: 2rem;
+    }
 
     .post-meta-top { font-size: 0.8em; }
 
@@ -2597,8 +2606,14 @@ li.comment {
     font-style: bold;
     font-size: 1.15em;
     position: relative;
-    top: -0.1rem;
-    right: 12.4rem;
+    top: -0.75rem;
+    right: 6.4rem;
+}
+.header-email {
+    padding: .35rem 0 .35rem;
+    position: relative;
+    top: 3.9rem;
+    left: -10.1rem;
 }
 
 
