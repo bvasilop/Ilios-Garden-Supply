@@ -1268,7 +1268,7 @@ abbr, acronym { cursor: help; }
 }
 
 .phone-number {
-    padding-bottom: 1rem;
+
     font-size: 2rem;
     font-weight: bold;
     color: #480002;
@@ -2022,7 +2022,7 @@ li.comment {
     /* header */
 
     .header {
-        padding: 30px 0; }
+        padding: 0 0 37px 0; }
 
     .blog-title {
         font-size: 32px;
@@ -2233,6 +2233,20 @@ li.comment {
 
     .post-title { font-size: 2.5em; }
 
+    .header-phone p{
+        font-style: bold;
+        font-size: 1.15em;
+        position: relative;
+        top: 0.25rem;
+        right: 11.5rem;
+    }
+    .header-email {
+        padding: .35rem 0 .35rem 0;
+        position: relative;
+        top: 4.75rem;
+        left: -13.8rem;
+    }
+
     /* paginations */
 
    /* .archive-nav a {
@@ -2352,7 +2366,7 @@ li.comment {
 
 
     .post-content p {
-        padding: 10px 20px 10px 32px;
+        padding: 10px 20px 10px 20px;
         font-size: 1.45rem;
         line-height: 115%;
         margin-bottom: 0;
@@ -2362,7 +2376,7 @@ li.comment {
     .post-content li { margin-bottom: 0.5em; }
 
     .post-content h1, .post-content h2, .post-content h3, .post-content h4, .post-content h5, .post-content h6 {
-        margin: 35px 0 18px;
+        margin: 35px 0 0 18px;
     }
 
     .post-content h1 { font-size: 1.5em; }
@@ -2404,6 +2418,13 @@ li.comment {
         display: block;
         margin: 0 auto;
     }
+    .post-content h1 {
+        margin-bottom: 1rem;
+        font-size: 1.85rem;
+        position: relative;
+        left: 0rem;
+    }
+
 
     /* comments */
 
@@ -2550,7 +2571,7 @@ li.comment {
         color: orangered;
     }
     .email a {
-        padding: 1.5rem;
+        padding: 0rem;
         color: #407cff;
         text-align: center;
         text-transform: lowercase;
@@ -2564,7 +2585,7 @@ li.comment {
         right: 9.5rem;
     }
     .header-email {
-        padding: .35rem 0 .35rem;
+        padding: .35rem 0 .35rem 0;
         position: relative;
         top: 3.9rem;
         left: -10.1rem;
@@ -2588,9 +2609,10 @@ li.comment {
     /* main content */
 
     .post-content h1 {
+        margin-bottom: 1rem;
         font-size: 1.85rem;
         position: relative;
-        left: 2rem;
+        left: 0rem;
     }
 
     .post-meta-top { font-size: 0.8em; }
@@ -2622,7 +2644,7 @@ li.comment {
 
 
 .email a {
-    padding: 1.5rem;
+    padding: 0;
     color: #407cff;
     text-align: center;
     text-transform: lowercase;
@@ -2636,7 +2658,7 @@ li.comment {
     right: 6.4rem;
 }
 .header-email {
-    padding: .35rem 0 .35rem;
+    padding: .35rem 0 .35rem 0;
     position: relative;
     top: 3.9rem;
     left: -10.1rem;
@@ -2645,13 +2667,14 @@ li.comment {
 
 }
 
-@media (max-width: 350px) {
+@media (max-width: 380px) {
 
     /* header */
 
     .blog-logo img {
-        height: 40px;
-        width: auto;
+        margin:5px 0 0px 0;
+        height: 62px;
+
     }
 
     /* single post */
@@ -2665,6 +2688,20 @@ li.comment {
         text-align: center;
         /*text-transform: uppercase;*/
         font-size: 1.75rem;
+    }
+
+    .header-phone p{
+        font-style: bold;
+        font-size: 1.15em;
+        position: relative;
+        top: -1.05rem;
+        right: 4.4rem;
+    }
+    .header-email {
+        padding: .35rem 0 .35rem 0;
+        position: relative;
+        top: 3.5rem;
+        left: -9.5rem;
     }
 
 
