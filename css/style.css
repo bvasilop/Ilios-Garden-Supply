@@ -1852,7 +1852,12 @@ li.comment {
 .social-media-button-container {
     background: #c7c7c7;
     zoom: 1;
-    text-align: left;
+
+}
+.so-widget-sow-social-media-buttons-atom-fc7cb45c908c .social-media-button-container {
+    zoom: 1;
+    text-align: center;
+
 }
 
 .email {
