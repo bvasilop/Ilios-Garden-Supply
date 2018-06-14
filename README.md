@@ -1,4 +1,4 @@
 # Ilios-Garden-Supply
-## horticulture e-commerce website
+## e-commerce website
 
 #### Bill Vasilopoulos 2018
