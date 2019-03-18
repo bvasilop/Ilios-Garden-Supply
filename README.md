@@ -1,5 +1,5 @@
 # Ilios Garden Supply Company
 
-## e-commerce website
+## mock e-commerce website
 
 #### Bill Vasilopoulos 2018
