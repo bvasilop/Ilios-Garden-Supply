@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 # Ilios-Garden-Supply
 
 ## web site for ecommerce retailer
@@ -9,5 +9,4 @@
 
 ## e-commerce website
 
-### Bill Vasilopoulos 2019
->>>>>>> ac7888e1d87dc3fb2dc1cc92071d1a129ccbb8f1
+### Bill Vasilopoulos
