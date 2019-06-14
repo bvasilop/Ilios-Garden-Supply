@@ -1,7 +1,7 @@
 
 # Ilios-Garden-Supply
 
-## web site for ecommerce retailer
+## web site for ecommerce 
 
 #### designed by : Bill Vasilopoulos 2018
 
