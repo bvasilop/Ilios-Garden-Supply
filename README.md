@@ -1,12 +1,6 @@
 
-# Ilios-Garden-Supply
+# Ilios Garden Supply
 
-## web site for ecommerce retailer
+## prototype for ecommerce site
 
-#### designed by : Bill Vasilopoulos 2018
-=======
-# Ilios Garden Supply Company
-
-## e-commerce website
-
-### Bill Vasilopoulos
+#### Bill Vasilopoulos
